@@ -1,5 +1,4 @@
-'''
-imprimir cada de um string'''
+# imprimir cada letra de um string
 nome = input("digite seu nome: ")
 primeira = True
 nome_formatado = ""
