@@ -6,4 +6,3 @@ for i in range (1,6):
     num = int(input(f"digite o {i} numero:"))
     soma += num
 print(soma)
-
