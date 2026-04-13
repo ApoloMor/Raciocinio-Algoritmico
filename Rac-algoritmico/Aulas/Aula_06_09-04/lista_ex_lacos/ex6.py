@@ -3,14 +3,14 @@ primeiro e último nome."""
 nome_full = input("Digite seu nome completo: ")
 first = ""
 last = ""
-encontrei = False
+temp = ""
 for l in nome_full:
-    if l == " ":
-        encontrei = True
-    if encontrei == False:
-        first += l
+    if l != " ":
+        temp += l
     else:
-        last += l
-print (first + last)
-        
-        
+        if first == "":
+            first = temp
+        temp = ""
+# depois do loop o temp guarda o último nome
+last = temp
+print(first + " " + last)
