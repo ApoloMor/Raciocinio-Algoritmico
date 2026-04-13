@@ -5,4 +5,12 @@ first = ""
 last = ""
 encontrei = False
 for l in nome_full:
-    
+    if l == " ":
+        encontrei = True
+    if encontrei == False:
+        first += l
+    else:
+        last += l
+print (first + last)
+        
+        
