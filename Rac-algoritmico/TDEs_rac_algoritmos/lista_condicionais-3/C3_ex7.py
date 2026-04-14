@@ -11,7 +11,7 @@ ano = input("Ano: ")
 formato = input("Formato (1, 2 ou 3): ")
 
 # conversão do mês
-match mes: #match é uma função que cumpre o mesmo objetivo de if/elif, match > valor a ser comparado, case> comparação em si.
+match mes: #match é uma função que cumpre o mesmo objetivo de if/elif, match >> valor a ser comparado, case >> comparação em si.
     case "01":
         abrev = "jan"
         completo = "janeiro"
