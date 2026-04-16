@@ -1,4 +1,4 @@
-txt = str(input("Digite uma palavra ou frase"))
+txt = str(input("Digite uma palavra ou frase: "))
 cont = 1
 final = ""
 anterior = ""
@@ -10,8 +10,9 @@ for l in txt:
   else:
     if anterior == l:
       cont += 1
-      final += l + str(cont)
     else:
-      final += l + "1"
-      cont = 0
+      final += anterior + str(cont)
+      cont = 1
+      anterior = l
+final += anterior + str(cont)
 print(final)
