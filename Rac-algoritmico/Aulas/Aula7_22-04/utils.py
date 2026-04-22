@@ -3,6 +3,6 @@ def get_int_num(msg):
         try:
             return int(input(msg))
         except:
-            print("Valor invaálido!!!")
+            print("Valor inválido!!!")
 def somar(num1, num2):
     return num1 + num2
