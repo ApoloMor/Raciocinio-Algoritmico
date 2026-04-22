@@ -1,2 +1,2 @@
 # Raciocinio-Algorítmico
-Códigos feitos no 1 período da matéria de Raciocínio Algorítmico
+Aqui estão alguns códigos/exercicios feitos na matéria de raciocínio algorítmico

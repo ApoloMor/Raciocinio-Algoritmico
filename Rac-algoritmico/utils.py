@@ -1,7 +1,8 @@
 def get_int_num(msg):
-    while true:
+    while True:
         try:
-            num = int(input(msg))
-            return num
-        exept:
+            return int(input(msg))
+        except:
             print("Valor invaálido!!!")
+def somar(num1, num2):
+    return num1 + num2
