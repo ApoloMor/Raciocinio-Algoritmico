@@ -1,19 +1,13 @@
-"""
-Adicionando elementos na lista
-"""
-lista = [0, 5]
-print(lista)
-lista.append(10)
-print(lista)
-lista.append(20)
-print(lista)
-lista.insert(0, 30)
-print(lista)
-lista.sort()
-print(lista)
-lista.extend([4, 6])
-print(lista)
-lista.remove(5)#remove o elemento especifico
-print(lista)
-lista.pop(1)#remove o elemento por indice e retorna ele mesmo
-print(lista)
+#criar uma matriz 3x3 identidade 
+#diagonal principal com elementos 
+
+a = []
+for  i in range(3):
+    a.append([])
+    for j in range(3):
+        if i == j:
+            a[i].append(1)
+        else:
+            a[i].append(0)
+for linha in a:
+    print(a)

@@ -1,10 +1,12 @@
-"""
-Listas
-"""
-lista = [ 1, 34, 7, 43, 32]
-for num in lista:
-    print (num)
-print("primeiro elemento:")
-print(lista[0])
-print("ultimo elemento: ")
-print(lista[len(lista)-1])
+'''
+listas multidimencionais
+pegar ldados de 5 pontos turisticos
+'''
+pontos = []
+for i in range(2):
+    ponto = input("Digite o nome do ponto: ")
+    lat = float(input("Digite a latitude: "))
+    lon = float(input("Digite a longitude: "))
+    info = [[ponto], lat, lon]
+    pontos.append(info)
+print(pontos)
