@@ -4,7 +4,7 @@ guardar e exibir, quando necessário, os nomes dos meses do ano.
 Calcular a média anual de temperatura, e informar quais meses
 ficaram acima desta média anual'''
 temps_col = []
-meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro' 'dezembro' ]
+meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro' ]
 while True:
     janeiro = float(input("Digite a temperatura média de mês de janeiro: "))
     temps_col += [janeiro]
@@ -43,7 +43,6 @@ while True:
     temps_col += [dezembro]
     break
 media = sum(temps_col) / 12
-print(f"A média anual de temperatura é: {media}")
 print(f"a média anual de temperatura é: {media}")
 print("Os meses que ficaram acima da média anual de temperatura são:")
 for i in range(12):
