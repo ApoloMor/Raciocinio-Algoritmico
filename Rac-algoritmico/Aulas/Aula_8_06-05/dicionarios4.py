@@ -9,4 +9,3 @@ if livro in livros:
     print(livros[livro])
 else:
     print('Livro desconhecido!')
-var = []
